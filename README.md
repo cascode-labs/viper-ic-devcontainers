@@ -13,7 +13,7 @@ on Dockerhub
 - Quick-start: Immediately start designing and simulating in a new project
 - Pre-configured: No need to install and debug a long-list of design software locally
 - Reproducible: Each designer uses the same design environment
-- Full-featured: Includes all the open-source tools required
+- Full-featured: Includes [all the most poular open-source tools](https://github.com/iic-jku/iic-osic-tools#installed-tools)
 - Multi-domain: Support both analog and digital design
 - Customizable: Easily customize the design environment per project
 - Multi-platform: Runs on Windows, Mac-OS, and Linux
