@@ -1,0 +1,24 @@
+{
+	"name": "viper-ic",
+	"image": "hpretl/iic-osic-tools",
+
+	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+	"features": {
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {}
+	 },
+
+	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	"postCreateCommand": "echo '${templateOption:favorite}' > /tmp/color.txt",
+	"containerEnv": {
+		// Sets the display variable to use x-forwarding to enable graphical apps
+		// "DISPLAY": "host.docker.internal:0.0" // Windows OS
+		//"DISPLAY": "docker.for.mac.host.internal:0" // MAC OS
+	},
+	// 👇 Configure tool-specific properties.
+	// "customizations": {},
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root"
+}
