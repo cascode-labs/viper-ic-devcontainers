@@ -10,8 +10,9 @@ on Dockerhub
 
 ## Conda Environment Setup
 
-The devcontainer.json also supports Conda environments.
-It includes the miniforge 
+The devcontainer.json also supports 
+[Conda](https://docs.conda.io/projects/conda/en/stable/index.html)
+environments.  It includes the miniforge 
 ("ghcr.io/rocker-org/devcontainer-features/miniforge:1")
 feature to install 
 [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge).
