@@ -8,6 +8,17 @@ hosted as
 [hpretl/iic-osic-tools](https://hub.docker.com/r/hpretl/iic-osic-tools)
 on Dockerhub
 
+## Conda Environment Setup
+
+The devcontainer.json also supports Conda environments.
+It includes the miniforge 
+("ghcr.io/rocker-org/devcontainer-features/miniforge:1")
+feature to install 
+[Mambaforge](https://github.com/conda-forge/miniforge#mambaforge).
+Then when it creates the devcontainer it also creates a new Conda environment from the 
+"[environment.yml](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html?highlight=environment.yml#creating-an-environment-file-manually)" 
+if it finds one in your repo's root directory.
+
 ## Advantages
 
 - Quick-start: Immediately start designing and simulating in a new project
