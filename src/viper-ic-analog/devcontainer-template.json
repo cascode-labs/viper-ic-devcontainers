@@ -1,0 +1,19 @@
+{
+    "id": "viper-ic-analog",
+    "version": "0.1.0",
+    "name": "Viper Integrated Circuit Design Environment",
+    "description": "An integrated circuit design environment",
+    "documentationURL": "https://github.com/cascode-labs/viper-ic-devcontainers",
+    "licenseURL": "https://github.com/cascode-labs/viper-ic-devcontainers/blob/main/LICENSE",
+    "options": {},
+    "platforms": [
+        "Any"
+    ],
+    "publisher": "Cascode-labs",
+    "keywords": [
+        "integrated-circuit design environment",
+        "electronic design automation",
+        "iic-osic-tools",
+        "integrated-circuit","IC"
+    ]
+}
