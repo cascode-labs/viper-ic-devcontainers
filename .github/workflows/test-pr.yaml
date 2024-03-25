@@ -12,8 +12,8 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/color/**
-            hello: ./**/hello/**
+            vipe-ic: ./**/viper-ic/**
+            viper-ic-analog: ./**/viper-ic-analog/**
 
   test:
     needs: [detect-changes]
