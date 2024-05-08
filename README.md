@@ -2,11 +2,12 @@
 
 A collection of [devcontainers](https://containers.dev/) for designing integrated circuits.
 
-Based on the
+The base docker file is [viper-osic-docker-analog](https://github.com/cascode-labs/viper-osic-docker-analog). 
+It is a simplified and specialized version of the original
 [JKU open source integrated circuit container](https://github.com/iic-jku/iic-osic-tools)
 hosted as
 [hpretl/iic-osic-tools](https://hub.docker.com/r/hpretl/iic-osic-tools)
-on Dockerhub
+on Dockerhub.
 
 ## Conda Environment Setup
 
